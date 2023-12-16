@@ -1,0 +1,22 @@
+{
+  "name": "Increased melee damage",
+  "description": "You have increased melee damage",
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "multiply_total_multiplicative",
+    "value": 0.35
+  },
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "player"
+      },
+      {
+        "type": "origins:name",
+        "name": "player.item"
+      }
+    ]
+  }
+}

@@ -6,6 +6,7 @@
   "impact": 1,
   "powers": [
     "decayingcraft:arbiter_shell",
-    "decayingcraft:arbiter_increased_health"
+    "decayingcraft:arbiter_increased_health",
+    "decayingcraft:arbiter_increased_damage"
   ]
 }
