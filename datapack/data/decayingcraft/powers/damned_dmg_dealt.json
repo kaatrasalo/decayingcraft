@@ -1,0 +1,9 @@
+{
+    "name": "Retarded part 2",
+    "description": "Your damage is ass",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": -0.4
+    }
+}

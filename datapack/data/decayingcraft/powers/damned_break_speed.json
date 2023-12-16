@@ -1,0 +1,9 @@
+{
+    "name": "Cuffed",
+    "description": "You break things slower because you're in shackles",
+    "type": "origins:modify_break_speed",
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": -0.4
+    }
+}

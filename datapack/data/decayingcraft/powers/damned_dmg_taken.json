@@ -1,0 +1,9 @@
+{
+    "name": "Retarded",
+    "description": "You take 66% more damage lmao",
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": 0.6666
+    }
+}

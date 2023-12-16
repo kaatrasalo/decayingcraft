@@ -1,0 +1,8 @@
+{
+  "name": "Damned",
+  "description": "Condemned and cursed, you've lost everything. The only way forward is to survive when all is lost.",
+  "icon": "minecraft:bone",
+  "order": 1,
+  "impact": 3,
+  "powers": ["decayingcraft:damned_dmg_taken", "decayingcraft:damned_dmg_dealt", "decayingcraft:damned_break_speed", "decayingcraft:damned_attack_speed", "decayingcraft:damned_speed"]
+}
