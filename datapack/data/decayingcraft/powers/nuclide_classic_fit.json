@@ -1,11 +1,6 @@
 {
-    "type": "origins:prevent_feature_render",
-    "features": [
-        "armor",
-        "held_item",
-        "elytra",
-        "stuck_objects"
-    ],
-    "name": "Classic fit",
-    "description": "Your looks are too iconic, nothing will hide them"
+  "type": "origins:prevent_feature_render",
+  "features": ["armor", "held_item", "elytra", "stuck_objects"],
+  "name": "Classic fit",
+  "description": "Your looks are too iconic, nothing will hide them"
 }
