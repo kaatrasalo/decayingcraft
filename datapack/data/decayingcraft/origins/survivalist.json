@@ -1,0 +1,8 @@
+{
+  "name": "Survivalist",
+  "description": "You've learned that the only way to survive alone is to be prepared for everything.",
+  "icon": "minecraft:dirt",
+  "order": 1,
+  "impact": 1,
+  "powers": []
+}
