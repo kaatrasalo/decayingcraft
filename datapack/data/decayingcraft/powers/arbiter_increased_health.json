@@ -1,0 +1,11 @@
+{
+  "name": "Increased max health",
+  "description": "You have increased max health",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Max health increase",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": 6
+  }
+}

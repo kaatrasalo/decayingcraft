@@ -4,5 +4,8 @@
   "icon": "minecraft:tnt",
   "order": 1,
   "impact": 1,
-  "powers": ["decayingcraft:arbiter_shell"]
+  "powers": [
+    "decayingcraft:arbiter_shell",
+    "decayingcraft:arbiter_increased_health"
+  ]
 }
