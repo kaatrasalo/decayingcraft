@@ -1,0 +1,8 @@
+{
+  "name": "Arbiter",
+  "description": "You believe that taking initiative and setting things straight first is the only way for survival to succeed.",
+  "icon": "minecraft:tnt",
+  "order": 1,
+  "impact": 1,
+  "powers": ["decayingcraft:arbiter_shell"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Eden 227 initiate",
+  "description": "Welcome to the planet, hope you don't mind morale.",
+  "icon": "minecraft:bedrock",
+  "order": 1,
+  "impact": 3,
+  "powers": ["decayingcraft:base_no_armor"]
+}

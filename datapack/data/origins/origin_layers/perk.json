@@ -1,6 +1,11 @@
 {
-  "order": 1,
-  "origins": ["decayingcraft:nuclide", "decayingcraft:survivalist", "decayingcraft:damned"],
+  "order": 2,
+  "origins": [
+    "decayingcraft:nuclide",
+    "decayingcraft:survivalist",
+    "decayingcraft:damned",
+    "decayingcraft:arbiter"
+  ],
   "name": "Perk",
   "missing_name": "None",
   "missing_description": "You do not currently have a perk!"
