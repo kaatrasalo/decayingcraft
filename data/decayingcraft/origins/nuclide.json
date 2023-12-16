@@ -1,0 +1,8 @@
+{
+  "powers": ["nukeorigins:nuclide_classic_fit"],
+  "icon": "minecraft:wither_rose",
+  "order": 1,
+  "impact": 3,
+  "name": "Nuclide",
+  "description": "Funnily enough, cares about you"
+}

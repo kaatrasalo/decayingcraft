@@ -1,0 +1,1 @@
+tellraw @s "The origins has been imported properly"
