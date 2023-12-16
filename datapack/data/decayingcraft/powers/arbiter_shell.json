@@ -9,6 +9,10 @@
       "type": "origins:and",
       "actions": [
         {
+          "type": "origins:set_fall_distance",
+          "fall_distance": 0
+        },
+        {
           "type": "origins:execute_command",
           "command": "execute at @s positioned ^ ^1.4 ^1.8 rotated ~90 ~ run function decayingcraft:arbiter_shortshell_visual"
         },
