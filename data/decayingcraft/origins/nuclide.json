@@ -1,5 +1,5 @@
 {
-  "powers": ["nukeorigins:nuclide_classic_fit"],
+  "powers": ["decayingcraft:nuclide_classic_fit"],
   "icon": "minecraft:wither_rose",
   "order": 1,
   "impact": 3,
