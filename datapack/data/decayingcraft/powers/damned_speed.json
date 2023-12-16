@@ -1,9 +1,9 @@
 {
     "name": "Railed",
     "description": "When your legs don't work like they used to before :3",
-    "type": "origins:modify_break_speed",
+    "type": "origins:attribute",
     "modifier": {
-        "attribute": "minecraft:generic.attack_speed",
+        "attribute": "minecraft:generic.movement_speed",
         "value": -0.4,
         "operation": "multiply_total"
     }
