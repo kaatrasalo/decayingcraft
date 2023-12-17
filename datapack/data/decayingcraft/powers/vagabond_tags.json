@@ -1,0 +1,93 @@
+{
+  "type": "origins:multiple",
+  "speedytags": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 10,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 5,
+      "should_render": true,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "decayingcraft:vagabond_tags_totaltags",
+        "comparison": "<=",
+        "compare_to": 10
+      }
+    }
+  },
+  "totaltags": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 100,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 0,
+      "should_render": true,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "decayingcraft:vagabond_tags_totaltags",
+        "comparison": ">",
+        "compare_to": 10
+      }
+    }
+  },
+  "ondeath": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:change_resource",
+      "resource": "decayingcraft:vagabond_tags_totaltags",
+      "operation": "set",
+      "change": 0
+    }
+  },
+  "onbigdamage": {
+    "type": "origins:action_when_damage_taken",
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">=",
+      "compare_to": 4
+    },
+    "entity_action": {
+      "type": "origins:modify_resource",
+      "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": -0.5
+      },
+      "resource": "decayingcraft:vagabond_tags_totaltags"
+    },
+    "cooldown": 1
+  },
+  "onsmalldamage": {
+    "type": "origins:action_when_damage_taken",
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": "<=",
+      "compare_to": 3
+    },
+    "entity_action": {
+      "type": "origins:chance",
+      "action": {
+        "type": "origins:change_resource",
+        "resource": "decayingcraft:vagabond_tags_totaltags",
+        "operation": "add",
+        "change": -1
+      },
+      "chance": 0.5
+    },
+    "cooldown": 1
+  },
+  "sync": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:modify_resource",
+      "modifier": {
+        "operation": "set_total",
+        "value": 0,
+        "resource": "decayingcraft:vagabond_tags_totaltags"
+      },
+      "resource": "decayingcraft:vagabond_tags_speedytags"
+    },
+    "interval": 20
+  }
+}

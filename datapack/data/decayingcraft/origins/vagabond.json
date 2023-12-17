@@ -1,0 +1,8 @@
+{
+  "name": "Vagabond",
+  "description": "There is only one constant to surviving alone - taking matters into your own hands, no matter the costs.",
+  "icon": "minecraft:iron_sword",
+  "order": 1,
+  "impact": 3,
+  "powers": ["decayingcraft:vagabond_tags", "decayingcraft:vagabond_tagspeed"]
+}

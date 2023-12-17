@@ -4,7 +4,8 @@
     "decayingcraft:nuclide",
     "decayingcraft:survivalist",
     "decayingcraft:damned",
-    "decayingcraft:arbiter"
+    "decayingcraft:arbiter",
+    "decayingcraft:vagabond"
   ],
   "name": "Perk",
   "missing_name": "None",

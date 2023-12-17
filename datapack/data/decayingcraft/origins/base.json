@@ -4,5 +4,5 @@
   "icon": "minecraft:bedrock",
   "order": 1,
   "impact": 3,
-  "powers": ["decayingcraft:base_no_armor", "decayingcraft:base_no_shield.json"]
+  "powers": ["decayingcraft:base_no_armor", "decayingcraft:base_no_shield"]
 }
