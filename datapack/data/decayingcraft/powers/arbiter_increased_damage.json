@@ -1,5 +1,5 @@
 {
-  "name": "Increased melee damage",
+  "name": "Melee Proficiency",
   "description": "You have increased melee damage",
   "type": "origins:modify_damage_dealt",
   "modifier": {
