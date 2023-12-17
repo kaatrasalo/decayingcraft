@@ -6,7 +6,28 @@
     "key": "key.origins.denary_active"
   },
   "entity_action": {
-    "type": "origins:execute_command",
-    "command": "kill @s"
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "say Fuck you guys I'm 0ing."
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:darkness",
+          "amplifier": 0,
+          "duration": 80
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 20,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "damage @s 9999 minecraft:player_attack by @s"
+        }
+      }
+    ]
   }
 }
