@@ -21,13 +21,22 @@
         }
       },
       {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "amplifier": 255,
+          "duration": 80
+        }
+      },
+      {
         "type": "origins:delay",
-        "ticks": 20,
+        "ticks": 30,
         "action": {
           "type": "origins:execute_command",
           "command": "damage @s 9999 minecraft:player_attack by @s"
         }
       }
     ]
-  }
+  },
+  "cooldown": 200
 }
