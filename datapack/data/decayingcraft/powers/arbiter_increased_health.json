@@ -1,5 +1,5 @@
 {
-  "name": "Increased max health",
+  "name": "Tanky",
   "description": "You have increased max health",
   "type": "origins:attribute",
   "modifier": {

@@ -1,0 +1,12 @@
+{
+  "name": "No Cripple",
+  "description": "When your legs work",
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "operation": "multiply_total_multiplicative",
+    "value": -0.8
+  },
+  "damage_condition": {
+    "type": "origins:from_falling" 
+  }
+} 
