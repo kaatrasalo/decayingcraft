@@ -1,0 +1,12 @@
+{
+  "name": "Zero",
+  "description": "You should 0 NOW!",
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.denary_active"
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "kill @s"
+  }
+}
